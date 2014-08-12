@@ -1,12 +1,9 @@
-var util = require('util'),
-    ch =  require('./node_modules/chess.js');
-
-var chess = new ch.Chess();
+var chess = new Chess();
 
 while (!chess.game_over()) {
-    util.puts('position: ' + chess.fen());
+    console.log('position: ' + chess.fen());
     var moves = chess.moves();
     var move = moves[Math.floor(Math.random() * moves.length)];
     chess.move(move);
-    util.puts('move: ' + move);
+    console.log('move: ' + move);
 }
