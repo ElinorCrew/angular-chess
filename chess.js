@@ -1,3 +1,6 @@
+var util = require('util'),
+    ch =  require('./node_modules/chess.js');
+
 var chess = new ch.Chess();
 
 while (!chess.game_over()) {
