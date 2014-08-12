@@ -1,8 +1,8 @@
 /*jslint node: true, es5: true*/
 /*global describe, it*/
 
-var should = require('should'),
-    c = require('../chess');
+var should = require('should');
+//    c = require('../chess');
 
 describe('Chess', function () {
     'use strict';
