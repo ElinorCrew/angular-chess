@@ -21,6 +21,7 @@
   "readmeFilename": "README.md",
   "gitHead": "856e5b88e0d828bc06ff89ce385935bb40d8db04",
   "dependencies": {
+    "chess.js": "^0.1.0",
     "mocha": "~1.20.1",
     "underscore": "~1.6.0"
   },
