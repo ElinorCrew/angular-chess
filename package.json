@@ -5,7 +5,8 @@
   "main": "chess.js",
   "scripts": {
     "test": "mocha --reporter spec",
-    "start": "node chess.js"
+    "start": "node chess.js",
+    "install": "napa angular/bower-angular:angular"
   },
   "repository": {
     "type": "git",
@@ -26,6 +27,7 @@
     "underscore": "~1.6.0"
   },
   "devDependencies": {
+    "napa": "^0.4.1",
     "should": "~4.0.4"
   }
 }
