@@ -23,7 +23,7 @@
   "gitHead": "856e5b88e0d828bc06ff89ce385935bb40d8db04",
   "dependencies": {
     "chess.js": "^0.1.0",
-    "karma": "~0.12.21",
+    "karma": "~0.12",
     "underscore": "~1.6.0"
   },
   "devDependencies": {
@@ -34,6 +34,7 @@
     "karma-requirejs": "^0.2.2",
     "napa": "^0.4.1",
     "requirejs": "^2.1.14",
-    "should": "~4.0.4"
+    "should": "~4.0.4",
+    "karma-phantomjs-launcher": "~0.1"
   }
 }

@@ -1,7 +1,7 @@
 // Karma configuration
-// Generated on Tue Aug 12 2014 16:23:13 GMT+0200 (CEST)
+// Generated on Wed Aug 13 2014 10:58:46 GMT+0200 (CEST)
 
-module.exports = function(config) {
+module.exports = function (config) {
   config.set({
 
     // base path that will be used to resolve all patterns (eg. files, exclude)
@@ -10,44 +10,30 @@ module.exports = function(config) {
 
     // frameworks to use
     // available frameworks: https://npmjs.org/browse/keyword/karma-adapter
-    frameworks: ['jasmine', 'requirejs'],
+    frameworks: ['jasmine'],
 
 
     // list of files / patterns to load in the browser
     files: [
-      'app/app.js',
-      'specs/*Spec.js'
+      'app/*.js',
+      'specs/*.js'
     ],
 
 
     // list of files to exclude
-    exclude: [
-    ],
+    exclude: [],
 
 
     // preprocess matching files before serving them to the browser
     // available preprocessors: https://npmjs.org/browse/keyword/karma-preprocessor
-    preprocessors: {
-    },
+    preprocessors: {},
 
 
     // test results reporter to use
     // possible values: 'dots', 'progress'
     // available reporters: https://npmjs.org/browse/keyword/karma-reporter
-    reporters: ['progress', 'coverage'],
+    reporters: ['progress'],
 
-    preprocessors: {
-      // source files, that you wanna generate coverage for
-      // do not include tests or libraries
-      // (these files will be instrumented by Istanbul)
-      'app/*.js': ['coverage']
-    },
-
-    // optionally, configure the reporter
-    coverageReporter: {
-      type : 'html',
-      dir : 'coverage/'
-    },
 
     // web server port
     port: 9876,
